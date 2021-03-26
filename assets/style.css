@@ -1,0 +1,25 @@
+body, html{
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2 {
+    text-align: center;
+    margin: 1px;
+}
+
+h4 {
+    text-align: center;
+    margin: 0px;
+}
+
+.main {
+    background-image: url('images/NavyHouse.JPG');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    -webkit-text-stroke: 0.75px black;
+}

@@ -5,6 +5,8 @@
 
 a {
     vertical-align: middle;
+    padding: 6px;
+    text-decoration: none;
 }
 
 h2 {
@@ -18,7 +20,7 @@ h4 {
 }
 
 header{
-    margin: 0px;
+    margin: 0px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;

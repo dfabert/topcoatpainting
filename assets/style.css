@@ -1,17 +1,27 @@
-body, html{
-    height: 100%;
+* {
     padding: 0px;
     margin: 0px;
 }
 
+a {
+    vertical-align: middle;
+}
+
 h2 {
     font-size: 45px;
-    margin: 1px;
+    margin: px;
 }
 
 h4 {
     font-size: 25px;
     margin: 0px;
+}
+
+header{
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .main {
@@ -21,7 +31,6 @@ h4 {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    -webkit-text-stroke: 1.2px black;
     display: flex;
     justify-content: center;
 }

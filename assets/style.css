@@ -5,12 +5,12 @@ body, html{
 }
 
 h2 {
-    text-align: center;
+    font-size: 45px;
     margin: 1px;
 }
 
 h4 {
-    text-align: center;
+    font-size: 25px;
     margin: 0px;
 }
 
@@ -21,5 +21,12 @@ h4 {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    -webkit-text-stroke: 0.75px black;
+    -webkit-text-stroke: 1.2px black;
+    display: flex;
+    justify-content: center;
+}
+
+.main-content {
+    align-self: flex-end;
+    text-align: center;
 }

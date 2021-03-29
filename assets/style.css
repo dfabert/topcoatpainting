@@ -11,7 +11,6 @@ a {
 
 h2 {
     font-size: 45px;
-    margin: px;
 }
 
 h4 {
@@ -53,12 +52,30 @@ header{
     max-height: 400px;
 }
 
-.servicesHeader {
+.aboutUs {
+    color: honeydew;
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.subHeader {
     text-align: center;
     margin: 10px;
 }
 
-.servicesText {
+.subText {
     text-align: center;
     margin: 10px;
 }
+
+footer {
+    background-color: black;
+    color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+

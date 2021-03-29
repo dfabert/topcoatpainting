@@ -41,3 +41,24 @@ header{
     align-self: flex-end;
     text-align: center;
 }
+
+.services > div {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    align-items: center;
+}
+
+.services > div > img {
+    max-height: 400px;
+}
+
+.servicesHeader {
+    text-align: center;
+    margin: 10px;
+}
+
+.servicesText {
+    text-align: center;
+    margin: 10px;
+}
